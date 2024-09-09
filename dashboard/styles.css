@@ -1,0 +1,169 @@
+/*----------Dashboard & Blogs page--------*/
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 220px;
+    height: 100%;
+    background-color: #343a40;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.logo img {
+    max-height: 60px;
+    margin-bottom: 20px;
+}
+
+.nav-links {
+    width: 100%;
+    text-align: center;
+}
+
+.nav-link {
+    display: block;
+    padding: 15px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-link:hover {
+    background-color: #f5976e;
+}
+
+.main-content {
+    margin-left: 250px; /* Same width as the sidebar */
+    padding: 20px;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.page-title h4 {
+    margin: 0;
+}
+
+.logout-button {
+    display: flex;
+    align-items: center;
+}
+
+.logout-button .btn {
+    margin-left: auto;
+}
+
+.card {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.card-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.latest-blogs {
+    margin-top: 20px;
+}
+
+.latest-blogs-heading {
+    margin-bottom: 15px;
+    text-decoration: underline;
+}
+
+.blog-item {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.blog-item a {
+    color: #f5976e;
+    text-decoration: none;
+}
+
+.blog-item a:hover {
+    text-decoration: underline;
+}
+
+/* Blog Cards */
+.blog-card {
+    border: 1px solid #ddd;
+    border-radius: 8px; 
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.blog-card-img-top {
+    height: 150px;
+    object-fit: cover;
+}
+
+.blog-card-title {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.blog-card-text {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.blog-btn-link {
+    padding: 0;
+    font-size: 14px;
+    text-decoration: underline;
+    color: #007bff;
+}
+
+.card-actions {
+    background-color: rgba(255, 255, 255, 0.8); /* Adds a white background to the links */
+    padding: 2px 5px;
+    border-radius: 4px;
+}
+
+#viewBlogModal .modal-body {
+    text-align: center;
+}
+
+
+#viewBlogModal #modalImage {
+    width: auto; 
+    height: 300px; 
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+#viewBlogModal #modalTitle {
+    margin-bottom: 1rem;
+}
+
+#currentImage {
+    max-width: 100px;
+    height: auto;
+}
+
+
+
+
+
+

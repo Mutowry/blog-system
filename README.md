@@ -1,2 +1,2 @@
-# blog_system
- A blogging system
+# newsletter_system
+ blog system
